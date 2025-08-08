@@ -1,0 +1,445 @@
+.design-light {
+  position: relative;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.design-light .left {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  width: 500px;
+  max-width: 500px;
+  margin-left: 100px;
+}
+
+.design-light .logo {
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+  margin-bottom: 60px;
+}
+
+.design-light .overlap-group {
+  width: 100%;
+  height: 67px;
+}
+
+.design-light .vector {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+
+.design-light .img {
+  position: absolute;
+  width: 182px;
+  height: 43px;
+  top: 19px;
+  left: 58px;
+}
+
+.design-light .content {
+  width: 100%;
+  margin-bottom: 60px;
+  
+}
+
+.design-light .COMING-SOON {
+  margin-bottom: 30px;
+  font-family: "Bowlby One SC-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: clamp(28px, 5vw, 48px);
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+.design-light .text-wrapper {
+  color: #333333;
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.design-light .span {
+  color: #f14a15;
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.design-light .span2 {
+  color: #f14a15;
+  font-family: "Fira Sans-Medium", Helvetica;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.design-light .div {
+  width: 100%;
+  margin-bottom: 30px;
+  font-family: "Fira Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #333333;
+  font-size: clamp(14px, 2.5vw, 18px);
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.design-light .text-wrapper-2 {
+  width: 100%;
+  margin-bottom: 30px;
+  font-family: "Fira Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #333333;
+  font-size: clamp(14px, 2.5vw, 18px);
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.design-light .for-more-inquiry {
+  width: 100%;
+  margin-bottom: 40px;
+  font-family: "Fira Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: transparent;
+  font-size: clamp(14px, 2.5vw, 18px);
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.design-light .text-wrapper-3 {
+  color: #333333;
+}
+
+.design-light .social {
+  width: 100%;
+  max-width: 186px;
+  height: auto;
+}
+
+.design-light .right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 671px;
+  height: 100vh;
+}
+
+.design-light .overlap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.design-light .illustration {
+  position: absolute;
+  width: 520px;
+  max-width: 580px;
+  height: auto;
+  top: 40px;
+  right: 40px;
+  z-index: 1;
+}
+
+.design-light .overlap-2 {
+  position: absolute;
+  width: 150px;
+  height: 120px;
+  top: 10px;
+  right: 10px;
+}
+
+.design-light .overlap-group-2 {
+  position: absolute;
+  width: 150px;
+  height: 120px;
+  top: 0;
+  left: 0;
+}
+
+.design-light .vector-2 {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  top: 10px;
+  right: 0;
+}
+
+.design-light .vector-3 {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+
+.design-light .vector-4 {
+  position: absolute;
+  width: 45px;
+  height: 50px;
+  top: 60px;
+  right: 50px;
+}
+
+.design-light .vector-5 {
+  position: absolute;
+  width: 45px;
+  height: 60px;
+  top: 70px;
+  right: 60px;
+}
+
+.design-light .vector-6 {
+  position: absolute;
+  width: 150px;
+  height: 60px;
+  top: 140px;
+  right: 20px;
+  background-color: #525252;
+  border-radius: 50px;
+}
+
+.design-light .egg-group {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  z-index: 5;
+}
+
+.design-light .overlap-3 {
+  position: relative;
+  height: auto;
+}
+
+.design-light .https-lottiefiles {
+  position: relative;
+  width: 100%;
+  max-width: 285px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.design-light .https-app {
+  position: relative;
+  width: 100%;
+  max-width: 329px;
+  height: auto;
+  object-fit: cover;
+}
+
+.design-light .illustration-2 {
+  position: absolute;
+  width: 520px;
+  max-width: 580px;
+  height: auto;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1;
+}
+
+/* Responsive Media Queries */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  .design-light .illustration {
+    width: 600px;
+    top: 50px;
+    right: 50px;
+  }
+
+  .design-light .illustration-2 {
+    width: 600px;
+    bottom: 50px;
+    right: 50px;
+  }
+
+  .design-light .egg-group {
+    max-width: 450px;
+  }
+} /* Tablet and small desktop */
+@media (max-width: 1024px) {
+  .design-light {
+    gap: 30px;
+    padding: 15px;
+  }
+
+  .design-light .COMING-SOON {
+    font-size: clamp(24px, 4vw, 36px);
+  }
+}
+
+/* Mobile landscape */
+@media (max-width: 768px) {
+  .design-light .left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    transform: none;
+    width: auto;
+    max-width: none;
+    text-align: center;
+  }
+
+  .design-light .right {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    right: 20px;
+    width: auto;
+    height: 400px;
+  }
+
+  .design-light .overlap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .design-light .illustration {
+    position: absolute;
+    width: 220px;
+    max-width: 240px;
+    height: auto;
+    top: 15px;
+    right: 15px;
+  }
+
+  .design-light .egg-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    max-width: 220px;
+    height: auto;
+  }
+
+  .design-light .illustration-2 {
+    position: absolute;
+    width: 220px;
+    max-width: 240px;
+    height: auto;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .design-light .vector-2,
+  .design-light .vector-3,
+  .design-light .vector-4,
+  .design-light .vector-5 {
+    position: absolute;
+  }
+
+  .design-light .vector-2 {
+    top: 5px;
+    right: 0;
+    width: 30px;
+    height: auto;
+  }
+
+  .design-light .vector-4 {
+    top: 25px;
+    right: 30px;
+    width: 25px;
+    height: auto;
+  }
+
+  .design-light .vector-5 {
+    top: 35px;
+    right: 35px;
+    width: 25px;
+    height: auto;
+  }
+
+  .design-light .https-lottiefiles,
+  .design-light .https-app {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 10px;
+  }
+}
+
+/* Mobile portrait */
+@media (max-width: 480px) {
+  .design-light .COMING-SOON {
+    font-size: clamp(20px, 6vw, 32px);
+  }
+
+  .design-light .left {
+    top: 15px;
+    left: 15px;
+    right: 15px;
+  }
+
+  .design-light .right {
+    top: 280px;
+    left: 15px;
+    right: 15px;
+    height: 350px;
+  }
+
+  .design-light .illustration {
+    position: absolute;
+    width: 170px;
+    top: 10px;
+    right: 10px;
+  }
+
+  .design-light .egg-group {
+    width: 150px;
+  }
+
+  .design-light .illustration-2 {
+    position: absolute;
+    width: 170px;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .design-light .div,
+  .design-light .text-wrapper-2,
+  .design-light .for-more-inquiry {
+    font-size: clamp(12px, 3vw, 16px);
+  }
+
+  .design-light .vector {
+    max-width: 150px;
+  }
+}
+
+/* Extra small mobile */
+@media (max-width: 320px) {
+  .design-light .COMING-SOON {
+    font-size: clamp(18px, 7vw, 28px);
+  }
+
+  .design-light .left {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+  }
+
+  .design-light .right {
+    top: 260px;
+    left: 10px;
+    right: 10px;
+  }
+}
+
+/* Make all images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
