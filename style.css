@@ -214,8 +214,9 @@
 .design-light .egg-group {
   position: absolute;
   top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
+  right: 50px;
+  left: 150%;
+  transform: translateY(-50%);
   width: 100%;
   max-width: 400px;
   height: auto;
@@ -272,6 +273,7 @@
 
   .design-light .egg-group {
     max-width: 450px;
+    right: 70px;
   }
 } /* Tablet and small desktop */
 @media (max-width: 1024px) {
@@ -297,6 +299,11 @@
   .design-light .illustration-2 {
     width: 400px;
     right: 20px;
+  }
+
+  .design-light .egg-group {
+    right: 30px;
+    max-width: 350px;
   }
 }
 
