@@ -16,6 +16,14 @@
   margin-left: 100px;
 }
 
+/* Add responsive adjustments for smaller screens */
+@media (max-width: 1200px) {
+  .design-light .left {
+    margin-left: 50px;
+    width: 450px;
+  }
+}
+
 .design-light .logo {
   width: 100%;
   max-width: 240px;
@@ -45,7 +53,6 @@
 .design-light .content {
   width: 100%;
   margin-bottom: 60px;
-  
 }
 
 .design-light .COMING-SOON {
@@ -268,13 +275,28 @@
   }
 } /* Tablet and small desktop */
 @media (max-width: 1024px) {
-  .design-light {
-    gap: 30px;
-    padding: 15px;
+  .design-light .left {
+    left: 15px;
+    width: 450px;
+    margin-left: 50px;
+  }
+
+  .design-light .right {
+    width: 550px;
   }
 
   .design-light .COMING-SOON {
     font-size: clamp(24px, 4vw, 36px);
+  }
+
+  .design-light .illustration {
+    width: 400px;
+    right: 20px;
+  }
+
+  .design-light .illustration-2 {
+    width: 400px;
+    right: 20px;
   }
 }
 
@@ -288,16 +310,12 @@
     transform: none;
     width: auto;
     max-width: none;
+    margin-left: 0;
     text-align: center;
   }
 
   .design-light .right {
-    position: absolute;
-    top: 300px;
-    left: 20px;
-    right: 20px;
-    width: auto;
-    height: 400px;
+    display: none;
   }
 
   .design-light .overlap {
@@ -307,31 +325,23 @@
   }
 
   .design-light .illustration {
-    position: absolute;
-    width: 220px;
-    max-width: 240px;
-    height: auto;
-    top: 15px;
-    right: 15px;
+    display: none;
   }
 
   .design-light .egg-group {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 180px;
-    max-width: 220px;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 200px;
+    max-width: 250px;
     height: auto;
+    margin: 20px auto;
+    z-index: 5;
   }
 
   .design-light .illustration-2 {
-    position: absolute;
-    width: 220px;
-    max-width: 240px;
-    height: auto;
-    bottom: 15px;
-    right: 15px;
+    display: none;
   }
 
   .design-light .vector-2,
@@ -381,31 +391,25 @@
     top: 15px;
     left: 15px;
     right: 15px;
+    margin-left: 0;
   }
 
   .design-light .right {
-    top: 280px;
-    left: 15px;
-    right: 15px;
-    height: 350px;
+    display: none;
   }
 
   .design-light .illustration {
-    position: absolute;
-    width: 170px;
-    top: 10px;
-    right: 10px;
+    display: none;
   }
 
   .design-light .egg-group {
-    width: 150px;
+    width: 180px;
+    max-width: 200px;
+    margin: 15px auto;
   }
 
   .design-light .illustration-2 {
-    position: absolute;
-    width: 170px;
-    bottom: 10px;
-    right: 10px;
+    display: none;
   }
 
   .design-light .div,
@@ -416,6 +420,15 @@
 
   .design-light .vector {
     max-width: 150px;
+  }
+
+  .design-light .logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .design-light .content {
+    margin-bottom: 40px;
   }
 }
 
@@ -429,12 +442,32 @@
     top: 10px;
     left: 10px;
     right: 10px;
+    margin-left: 0;
   }
 
   .design-light .right {
-    top: 260px;
-    left: 10px;
-    right: 10px;
+    display: none;
+  }
+
+  .design-light .egg-group {
+    width: 150px;
+    max-width: 170px;
+    margin: 15px auto;
+  }
+
+  .design-light .logo {
+    max-width: 180px;
+    margin-bottom: 15px;
+  }
+
+  .design-light .content {
+    margin-bottom: 30px;
+  }
+
+  .design-light .div,
+  .design-light .text-wrapper-2,
+  .design-light .for-more-inquiry {
+    font-size: clamp(11px, 3.5vw, 14px);
   }
 }
 
